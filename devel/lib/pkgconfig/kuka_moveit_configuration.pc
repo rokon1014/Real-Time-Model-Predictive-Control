@@ -1,0 +1,8 @@
+prefix=/home/intelligentrobotics/rokon/devel
+
+Name: kuka_moveit_configuration
+Description: Description of kuka_moveit_configuration
+Version: 0.2.0
+Cflags: 
+Libs: -L/home/intelligentrobotics/rokon/devel/lib 
+Requires: 

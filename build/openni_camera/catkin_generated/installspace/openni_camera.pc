@@ -1,0 +1,8 @@
+prefix=/home/intelligentrobotics/rokon/install
+
+Name: openni_camera
+Description: Description of openni_camera
+Version: 1.9.2
+Cflags: -I/home/intelligentrobotics/rokon/install/include -I/usr/include -I/usr/include/ni
+Libs: -L/home/intelligentrobotics/rokon/install/lib -lopenni_nodelet -lopenni_driver -l:/usr/lib/libboost_system-mt.so -l:/usr/lib/libboost_filesystem-mt.so -l:/usr/lib/libboost_thread-mt.so -lpthread -lOpenNI
+Requires: camera_info_manager dynamic_reconfigure image_transport nodelet roscpp

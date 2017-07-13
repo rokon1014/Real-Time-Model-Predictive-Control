@@ -1,0 +1,1 @@
+/usr/bin/c++    -I/home/intelligentrobotics/ws/orocos/KUKACommander/srv_gen/cpp/include    CMakeFiles/SimplePTP.dir/src/SimplePTP.cpp.o  -o ../devel/lib/app/SimplePTP -rdynamic 

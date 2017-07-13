@@ -1,0 +1,15 @@
+
+float32 position1x
+float32 position1y
+
+
+
+float32 position2x
+float32 position2y
+
+
+float32 angle_a4
+float32 angle_a5 
+---
+float32 commandx
+float32 commandy

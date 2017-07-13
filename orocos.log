@@ -1,0 +1,70 @@
+0.000 [ Info   ][Logger] No ORO_LOGLEVEL environment variable set.
+0.000 [ Info   ][Logger]  OROCOS version '2.6.0' compiled with GCC 4.6.3. Running in Xenomai.
+0.000 [ Info   ][Logger] Orocos Logging Activated at level : [ Warning] ( 4 ) 
+0.000 [ Info   ][Logger] Reference System Time is : 376860138555073 ticks ( 114466 seconds ).
+0.000 [ Info   ][Logger] Logging is relative to this time.
+0.003 [ Info   ][Logger] Xenomai Periodic Timer runs in preemptive 'one-shot' mode.
+0.003 [ Info   ][Logger] Installing SIGXCPU handler.
+0.003 [ Info   ][Logger] No RTT_COMPONENT_PATH set. Using default: /home/intelligentrobotics/ws/orocos/orocos_toolchain/install/lib/orocos
+0.003 [ Info   ][Logger] plugin 'rtt' not loaded before.
+0.003 [ Info   ][Logger] Loading plugin libraries from directory /home/intelligentrobotics/ws/orocos/orocos_toolchain/install/lib/orocos/xenomai/./plugins ...
+0.003 [ Info   ][Logger] Loaded RTT Service 'scripting' from 'rtt-scripting'
+0.004 [ Info   ][Logger] Loaded RTT Service 'marshalling' from 'rtt-marshalling'
+0.004 [ Info   ][Logger] typekit 'rtt' not loaded before.
+0.004 [ Info   ][Logger] Loading typekit libraries from directory /home/intelligentrobotics/ws/orocos/orocos_toolchain/install/lib/orocos/xenomai/./types ...
+0.016 [ Info   ][TypekitRepository::Import] Loading Typekit rtt-types.
+0.017 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'rtt-types' from 'rtt-typekit'
+0.028 [ Info   ][TypekitRepository::Import] Loading Transport CORBA://rtt-types.
+0.028 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for ConnPolicy
+0.028 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for TaskContext
+0.028 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for array
+0.028 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for bool
+0.028 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for char
+0.028 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for double
+0.028 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for float
+0.028 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for int
+0.028 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for string
+0.029 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for uint
+0.029 [ Info   ][TypekitRepository::Import] Registered new 'CORBA' transport for void
+0.029 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'rtt-corba-types' from 'rtt-transport-corba'
+0.031 [ Info   ][TypekitRepository::Import] Loading Transport mqueue://rtt-types.
+0.031 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for array
+0.031 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for bool
+0.031 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for char
+0.031 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for double
+0.031 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for float
+0.031 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for int
+0.031 [ Info   ][TypekitRepository::Import] Registered new 'mqueue' transport for uint
+0.031 [ Info   ][Logger] Loaded RTT TypeKit/Transport 'rtt-mqueue-transport' from 'rtt-transport-mqueue'
+0.031 [ Info   ][Logger] No RTT_COMPONENT_PATH set. Using default: /home/intelligentrobotics/ws/orocos/orocos_toolchain/install/lib/orocos
+0.031 [ Info   ][Logger] OCL factory set for real-time logging
+0.031 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='Deployer'
+0.032 [ Info   ][Deployer] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 1, cpu affinity 0 and period 0 (PID= 0 ).
+0.032 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='GlobalEngine'
+0.032 [ Info   ][GlobalEngine] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 1, cpu affinity 0 and period 0 (PID= 0 ).
+0.033 [ Info   ][Logger] No site file was found. Importing 'ocl' by default.
+0.076 [ Info   ][DeploymentComponent::import] Importing directory /home/intelligentrobotics/ws/orocos/orocos_toolchain/install/lib/orocos/xenomai/ocl ...
+0.090 [ Info   ][DeploymentComponent::import] Loaded multi component library '/home/intelligentrobotics/ws/orocos/orocos_toolchain/install/lib/orocos/xenomai/ocl/liborocos-ocl-reporting-netcdf-xenomai.so'
+0.090 [ Info   ][DeploymentComponent::import] Loaded component type 'OCL::NetcdfReporting'
+0.091 [ Info   ][DeploymentComponent::import] Loaded component type 'OCL::LuaComponent'
+0.093 [ Info   ][DeploymentComponent::import] Loaded component type 'OCL::HelloWorld'
+0.095 [ Info   ][DeploymentComponent::import] Loaded multi component library '/home/intelligentrobotics/ws/orocos/orocos_toolchain/install/lib/orocos/xenomai/ocl/liborocos-ocl-timer-xenomai.so'
+0.097 [ Info   ][DeploymentComponent::import] Loaded component type 'OCL::LuaTLSFComponent'
+0.101 [ Info   ][DeploymentComponent::import] Loaded component type 'OCL::logging::Log4cxxAppender'
+0.101 [ Info   ][DeploymentComponent::import] Loaded multi component library '/home/intelligentrobotics/ws/orocos/orocos_toolchain/install/lib/orocos/xenomai/ocl/liborocos-ocl-reporting-xenomai.so'
+0.102 [ Info   ][DeploymentComponent::import] Loaded multi component library '/home/intelligentrobotics/ws/orocos/orocos_toolchain/install/lib/orocos/xenomai/ocl/liborocos-ocl-common-xenomai.so'
+0.103 [ Info   ][DeploymentComponent::import] Loaded multi component library '/home/intelligentrobotics/ws/orocos/orocos_toolchain/install/lib/orocos/xenomai/ocl/liborocos-ocl-logging-xenomai.so'
+0.104 [ Info   ][DeploymentComponent::import] Loading typekit libraries from directory /home/intelligentrobotics/ws/orocos/orocos_toolchain/install/lib/orocos/xenomai/ocl/types ...
+0.108 [ Info   ][TypekitRepository::Import] Loading Typekit OCLTypekit.
+0.108 [ Info   ][DeploymentComponent::import] Loaded RTT TypeKit/Transport 'OCLTypekit' from 'ocl'
+0.108 [ Info   ][DeploymentComponent::import] Loading plugin libraries from directory /home/intelligentrobotics/ws/orocos/orocos_toolchain/install/lib/orocos/xenomai/ocl/plugins ...
+0.109 [ Info   ][DeploymentComponent::import] Loaded RTT Service 'os' from 'os'
+0.110 [ Info   ][DeploymentComponent::import] Loaded RTT Service 'LuaTLSF' from 'rttlua-tlsf-plugin'
+0.111 [ Info   ][DeploymentComponent::import] Loaded RTT Service 'print' from 'print'
+0.111 [ Info   ][DeploymentComponent::import] Loaded RTT Service 'Lua' from 'rttlua-plugin'
+0.111 [ Info   ][Logger] Loading Service or Plugin scripting in TaskContext Deployer
+0.114 [ Info   ][Logger] Found complete interface of requested service 'scripting'
+0.114 [ ERROR  ][ScriptingService::runScript] Script setup_kuka_commander.ops does not exist.
+0.114 [ Info   ][Thread] Creating Thread for scheduler=ORO_SCHED_OTHER, priority=1, CPU affinity=0, with name='TaskBrowser'
+0.114 [ Info   ][TaskBrowser] Thread created with scheduler type 'ORO_SCHED_OTHER', priority 1, cpu affinity 0 and period 0 (PID= 0 ).
+0.115 [ Info   ][Logger] Entering Task Deployer

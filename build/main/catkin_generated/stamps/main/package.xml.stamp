@@ -1,0 +1,18 @@
+<package>
+  <!-- Package Metadata -->
+  <name>main</name>
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <description>
+    A ROS tutorial on modularity.
+  </description>
+  <version>0.0.0</version>
+  <license>BSD</license>
+
+  <!-- Required by Catkin -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>utils_pkg</build_depend>
+
+  <run_depend>roscpp</run_depend>
+  <run_depend>utils_pkg</run_depend>
+</package>

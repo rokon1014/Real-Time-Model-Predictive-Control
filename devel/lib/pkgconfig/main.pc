@@ -1,0 +1,8 @@
+prefix=/home/intelligentrobotics/rokon_clone/October/devel
+
+Name: main
+Description: Description of main
+Version: 0.0.0
+Cflags: -I/home/intelligentrobotics/rokon_clone/October/src/main/include
+Libs: -L/home/intelligentrobotics/rokon_clone/October/devel/lib -lmain
+Requires: roscpp

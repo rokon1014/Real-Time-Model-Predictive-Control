@@ -1,0 +1,8 @@
+prefix=/home/intelligentrobotics/rokon_clone/October/install
+
+Name: unit
+Description: Description of unit
+Version: 0.0.0
+Cflags: -I/home/intelligentrobotics/rokon_clone/October/install/include
+Libs: -L/home/intelligentrobotics/rokon_clone/October/install/lib -lunit
+Requires: roscpp

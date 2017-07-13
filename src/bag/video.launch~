@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="rosbag" type="play" name="rosbag" args="--clock /home/intelligentrobotics/rokon/src/bag/test.bag"/>
+  <node name="extract" pkg="image_view" type="extract_images" respawn="false" output="screen" >
+    <remap from="image" to="/camera/rgb/image_raw"/>
+  </node>
+</launch>

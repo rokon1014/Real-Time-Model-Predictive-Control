@@ -1,0 +1,8 @@
+prefix=/home/intelligentrobotics/rokon_clone/October/devel
+
+Name: utils
+Description: Description of utils
+Version: 0.0.0
+Cflags: -I/home/intelligentrobotics/rokon_clone/October/src/utils/include
+Libs: -L/home/intelligentrobotics/rokon_clone/October/devel/lib -lutils
+Requires: roscpp

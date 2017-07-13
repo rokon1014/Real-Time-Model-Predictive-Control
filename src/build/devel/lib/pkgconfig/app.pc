@@ -1,0 +1,8 @@
+prefix=/home/intelligentrobotics/rokon/src/build/devel
+
+Name: app
+Description: Description of app
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/intelligentrobotics/rokon/src/build/devel/lib 
+Requires: 

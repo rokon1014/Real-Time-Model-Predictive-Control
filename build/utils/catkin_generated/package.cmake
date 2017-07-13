@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "utils")
+set(utils_MAINTAINER "Your Name <you@example.com>")
+set(utils_DEPRECATED "")
+set(utils_VERSION "0.0.0")
+set(utils_BUILD_DEPENDS "roscpp")
+set(utils_RUN_DEPENDS "roscpp")
+set(utils_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,8 @@
+prefix=/home/intelligentrobotics/rokon_clone/October/devel
+
+Name: app
+Description: Description of app
+Version: 0.0.0
+Cflags: -I/home/intelligentrobotics/rokon_clone/October/devel/include
+Libs: -L/home/intelligentrobotics/rokon_clone/October/devel/lib 
+Requires: 

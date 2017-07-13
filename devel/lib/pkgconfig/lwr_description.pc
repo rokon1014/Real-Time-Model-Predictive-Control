@@ -1,0 +1,8 @@
+prefix=/home/intelligentrobotics/rokon/devel
+
+Name: lwr_description
+Description: Description of lwr_description
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/intelligentrobotics/rokon/devel/lib 
+Requires: 

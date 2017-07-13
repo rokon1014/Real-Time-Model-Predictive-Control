@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/intelligentrobotics/rokon/code/object_detection.cpp
+opencv2/highgui/highgui.hpp
+/home/intelligentrobotics/rokon/code/opencv2/highgui/highgui.hpp
+opencv2/imgproc/imgproc.hpp
+/home/intelligentrobotics/rokon/code/opencv2/imgproc/imgproc.hpp
+iostream
+-
+stdio.h
+-
+

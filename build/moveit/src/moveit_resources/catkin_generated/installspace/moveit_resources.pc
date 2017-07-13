@@ -1,0 +1,8 @@
+prefix=/home/intelligentrobotics/rokon/install
+
+Name: moveit_resources
+Description: Description of moveit_resources
+Version: 0.5.0
+Cflags: -I/home/intelligentrobotics/rokon/install/include
+Libs: -L/home/intelligentrobotics/rokon/install/lib 
+Requires: 

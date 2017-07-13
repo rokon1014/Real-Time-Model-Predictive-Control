@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "camera")
+set(camera_MAINTAINER "intelligentrobotics <intelligentrobotics@todo.todo>")
+set(camera_DEPRECATED "")
+set(camera_VERSION "0.0.0")
+set(camera_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(camera_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(camera_BUILDTOOL_DEPENDS "catkin")

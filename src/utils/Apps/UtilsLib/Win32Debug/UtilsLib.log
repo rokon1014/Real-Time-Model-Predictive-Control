@@ -1,0 +1,38 @@
+﻿Build started 3/18/2015 6:24:59 PM.
+     1>Project "D:\Aalto\Study\thesis\new_opt\again\perttu\Utils\Apps\UtilsLib\UtilsLib.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ID:\Aalto\Study\thesis\new_opt\again\perttu\Utils\Apps\UtilsLib\..\..\..\ThirdParty\Eigen /ID:\Aalto\Study\thesis\new_opt\again\perttu\Utils\Apps\UtilsLib\..\..\..\Utils\Include /ID:\Aalto\Study\thesis\new_opt\again\perttu\Utils\Apps\UtilsLib\..\..\Include /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D NOMINMAX /D _MBCS /D _LIB /D WIN32 /D _DEBUG /D NOMINMAX /D _MBCS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32Debug\\" /Fd"Win32Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Src\ClippedGaussianSampling.cpp ..\..\Src\DiagonalGMM.cpp ..\..\Src\DynamicPdfSampler.cpp ..\..\Src\EigenGeometryUtils.cpp ..\..\Src\EigenMathUtils.cpp ..\..\Src\FileUtils.cpp ..\..\Src\IndexRandomizer.cpp ..\..\Src\LinAlgUtilities.cpp ..\..\Src\NormalDistribution.cpp ..\..\Src\Optimization.cpp ..\..\Src\RandomForestSampler.cpp ..\..\Src\SamplingTree.cpp
+         SamplingTree.cpp
+         RandomForestSampler.cpp
+         Optimization.cpp
+         NormalDistribution.cpp
+         LinAlgUtilities.cpp
+         IndexRandomizer.cpp
+         FileUtils.cpp
+     1>..\..\Src\FileUtils.cpp(9): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+         EigenMathUtils.cpp
+         EigenGeometryUtils.cpp
+         DynamicPdfSampler.cpp
+         DiagonalGMM.cpp
+         ClippedGaussianSampling.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"D:\Aalto\Study\thesis\new_opt\again\perttu\Utils\Apps\UtilsLib\\..\Bin\UtilsLib_Win32_Debug.lib" /NOLOGO Win32Debug\ClippedGaussianSampling.obj
+         Win32Debug\DiagonalGMM.obj
+         Win32Debug\DynamicPdfSampler.obj
+         Win32Debug\EigenGeometryUtils.obj
+         Win32Debug\EigenMathUtils.obj
+         Win32Debug\FileUtils.obj
+         Win32Debug\IndexRandomizer.obj
+         Win32Debug\LinAlgUtilities.obj
+         Win32Debug\NormalDistribution.obj
+         Win32Debug\Optimization.obj
+         Win32Debug\RandomForestSampler.obj
+         Win32Debug\SamplingTree.obj
+         UtilsLib.vcxproj -> D:\Aalto\Study\thesis\new_opt\again\perttu\Utils\Apps\UtilsLib\\..\Bin\UtilsLib_Win32_Debug.lib
+     1>Done Building Project "D:\Aalto\Study\thesis\new_opt\again\perttu\Utils\Apps\UtilsLib\UtilsLib.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:23.10
